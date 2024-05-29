@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 
 :root {
   /**
@@ -31,7 +31,7 @@
    * typography
    */
 
-  --ff-roboto: 'Roboto', sans-serif;
+  --ff-roboto: "Roboto", sans-serif;
   --ff-league-spartan: Tajawal;
 
   --fs-1: 3.5rem;
@@ -72,12 +72,7 @@
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
   --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
-
 }
-
-
-
-
 
 /*-----------------------------------*\
   #RESET
@@ -175,10 +170,6 @@ body {
   outline-offset: 4px;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -269,10 +260,6 @@ body {
   object-fit: cover;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -293,7 +280,7 @@ body {
   filter: drop-shadow(var(--shadow-2));
 }
 
-.header>.container {
+.header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -372,10 +359,6 @@ body {
   margin-block-start: 10px;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #HEO
 \*-----------------------------------*/
@@ -407,10 +390,6 @@ body {
   margin-inline: auto;
   margin-block-start: 20px;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #SERVICE
@@ -454,10 +433,6 @@ body {
 .service-card .card-text {
   font-size: var(--fs-6);
 }
-
-
-
-
 
 /*-----------------------------------*\
   #PROJECT
@@ -513,10 +488,6 @@ body {
   color: var(--white-1);
   margin-block: 12px 15px;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #ABOUT
@@ -591,10 +562,6 @@ body {
 .about-item:not(:last-child) {
   margin-block-end: 12px;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #CTA
@@ -769,10 +736,6 @@ textarea.input-field {
   color: var(--red-crayola);
 }
 
-
-
-
-
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
@@ -792,10 +755,6 @@ textarea.input-field {
   font-weight: var(--fw-500);
   display: inline-block;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #BACK TO TOP
@@ -862,10 +821,6 @@ textarea.input-field {
   opacity: 0.9;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -875,7 +830,6 @@ textarea.input-field {
  */
 
 @media (min-width: 575px) {
-
   /**
    * REUSED STYLE
    */
@@ -903,25 +857,18 @@ textarea.input-field {
   .contact-item {
     min-width: calc(50% - 18px);
   }
-
 }
-
-
-
-
 
 /**
  * responsive for larger than 768px screen
  */
 
 @media (min-width: 768px) {
-
   /**
    * CUSTOM PROPERTY
    */
 
   :root {
-
     /**
      * typography
      */
@@ -932,10 +879,7 @@ textarea.input-field {
     --fs-4: 1.8rem;
     --fs-5: 1.5rem;
     --fs-6: 1.4rem;
-
   }
-
-
 
   /**
    * REUSED STYLE
@@ -950,8 +894,6 @@ textarea.input-field {
     margin-inline: auto;
   }
 
-
-
   /**
    * HERO
    */
@@ -960,8 +902,6 @@ textarea.input-field {
     max-width: 60ch;
     margin-inline: auto;
   }
-
-
 
   /**
    * ABOUT
@@ -976,8 +916,6 @@ textarea.input-field {
     margin-inline: 0;
   }
 
-
-
   /**
    * CONTACT
    */
@@ -989,25 +927,18 @@ textarea.input-field {
   .contact-item {
     min-width: calc(50% - 12.5px);
   }
-
 }
-
-
-
-
 
 /**
  * responsive for larger than 992px screen
  */
 
 @media (min-width: 992px) {
-
   /**
    * CUSTOM PROPERTY
    */
 
   :root {
-
     /**
      * typography
      */
@@ -1021,10 +952,7 @@ textarea.input-field {
      */
 
     --section-padding: 100px;
-
   }
-
-
 
   /**
    * REUSED STYLE
@@ -1037,8 +965,6 @@ textarea.input-field {
   .grid-list {
     grid-template-columns: repeat(3, 1fr);
   }
-
-
 
   /**
    * HEADER
@@ -1089,8 +1015,6 @@ textarea.input-field {
     margin-block-start: 0;
   }
 
-
-
   /**
    * HERO
    */
@@ -1127,8 +1051,6 @@ textarea.input-field {
     margin-inline: 0;
   }
 
-
-
   /**
    * SERVICE
    */
@@ -1141,8 +1063,6 @@ textarea.input-field {
     --fs-3: 2.3rem;
   }
 
-
-
   /**
    * PROJECT
    */
@@ -1150,8 +1070,6 @@ textarea.input-field {
   .project-card .card-subtitle {
     --fs-6: 1.5rem;
   }
-
-
 
   /**
    * ABOUT
@@ -1187,25 +1105,18 @@ textarea.input-field {
   .contact-card .card-icon {
     font-size: 32px;
   }
-
 }
-
-
-
-
 
 /**
  * responsive for larger than 1200px screen
  */
 
 @media (min-width: 1200px) {
-
   /**
    * CUSTOM PROPERTY
    */
 
   :root {
-
     /**
      * typography
      */
@@ -1215,10 +1126,7 @@ textarea.input-field {
     --fs-4: 1.9rem;
     --fs-5: 1.6rem;
     --fs-6: 1.6rem;
-
   }
-
-
 
   /**
    * REUSED STYLE
@@ -1232,8 +1140,6 @@ textarea.input-field {
     --fs-6: 1.5rem;
   }
 
-
-
   /**
    * SERVICE
    */
@@ -1246,8 +1152,6 @@ textarea.input-field {
     --fs-3: 2.5rem;
   }
 
-
-
   /**
    * PROJECT
    */
@@ -1259,8 +1163,6 @@ textarea.input-field {
   .project-card .card-subtitle {
     --fs-6: 1.6rem;
   }
-
-
 
   /**
    * ABOUT
@@ -1278,8 +1180,6 @@ textarea.input-field {
     font-size: 20px;
   }
 
-
-
   /**
    * CTA
    */
@@ -1287,7 +1187,6 @@ textarea.input-field {
   .cta .section-title {
     margin-block: 15px 24px;
   }
-
 
   /**
    * CONTACT
@@ -1304,7 +1203,6 @@ textarea.input-field {
   .contact-card .card-icon {
     padding: 15px;
   }
-
 }
 
 .stats-list {
@@ -1314,7 +1212,7 @@ textarea.input-field {
   margin-top: 30px;
 }
 
-@media (max-width :768px) {
+@media (max-width: 768px) {
   .stats-list {
     grid-template-columns: repeat(1, 1fr) !important;
   }
@@ -1333,9 +1231,7 @@ textarea.input-field {
 
 .stats-title {
   color: hsl(236, 57%, 28%);
-  ;
   font-size: 3.8rem;
-  ;
   font-weight: 700;
 }
 
@@ -1395,7 +1291,7 @@ textarea.input-field {
   font-size: 3rem;
   font-weight: 700;
   margin-block-end: 15px;
-  color: #000
+  color: #000;
 }
 
 .footer-link {
@@ -1450,7 +1346,6 @@ textarea.input-field {
   .footer-brand {
     grid-column: auto;
   }
-
 }
 
 @media (min-width: 992px) {
@@ -1465,18 +1360,15 @@ textarea.input-field {
   .footer-brand .text {
     max-width: 45ch;
   }
-
 }
 
 @media (min-width: 768px) {
   .footer-top .container {
     grid-template-columns: repeat(3, 1fr);
   }
-
 }
 
 @media (min-width: 550px) {
-
   .footer-brand,
   .footer-list:not(:last-child) {
     margin-block-end: 0;
@@ -1487,9 +1379,7 @@ textarea.input-field {
     grid-template-columns: 1fr 1fr;
     gap: 30px 50px;
   }
-
 }
-
 
 .testimonial {
   padding: 100px 0;
@@ -1567,4 +1457,23 @@ textarea.input-field {
 .whatsapp,
 .back-top-btn {
   font-size: 20px;
+}
+
+.service-btn {
+  background-image: var(--gradient);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-top: 16px;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-weight: bold;
+  width: 100%;
 }
