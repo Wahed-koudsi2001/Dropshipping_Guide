@@ -366,6 +366,7 @@ body {
 .hero {
   padding-block-start: calc(var(--section-padding) + 50px);
   text-align: center;
+  background-color: #2979df3b;
 }
 
 .hero-content {
@@ -384,6 +385,7 @@ body {
 
 .hero-text {
   font-size: var(--fs-5);
+  color: #000;
 }
 
 .hero .btn {
@@ -741,7 +743,7 @@ textarea.input-field {
 \*-----------------------------------*/
 
 .footer {
-  background-color: var(--white-2);
+  background-color: #2979df3b;
   padding-block: 20px;
 }
 
