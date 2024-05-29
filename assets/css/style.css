@@ -1524,6 +1524,7 @@ textarea.input-field {
   align-items: center;
   gap: calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14);
   animation: scroll-x 60s linear infinite;
+  -webkit-animation: scroll-x 60s linear infinite;
 }
 .marquee--reverse .marquee__group {
   animation-direction: reverse;
@@ -1574,6 +1575,10 @@ img.lazy.loaded {
   }
   100% {
     transform: translateX(calc(-100% - clamp(10rem, 1rem + 40vmin, 30rem) / 14));
+    -webkit-transform: translateX(calc(-100% - clamp(10rem, 1rem + 40vmin, 30rem) / 14));
+    -moz-transform: translateX(calc(-100% - clamp(10rem, 1rem + 40vmin, 30rem) / 14));
+    -ms-transform: translateX(calc(-100% - clamp(10rem, 1rem + 40vmin, 30rem) / 14));
+    -o-transform: translateX(calc(-100% - clamp(10rem, 1rem + 40vmin, 30rem) / 14));
   }
 }
 .padding-top {
