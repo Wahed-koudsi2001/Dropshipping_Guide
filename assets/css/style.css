@@ -1480,7 +1480,9 @@ textarea.input-field {
   width: 100%;
 }
 /* Container Styling */
-
+.padding-top .h2 {
+  margin-bottom: 50px;
+}
 .s-block--animated-brands--marquee {
   display: flex;
   overflow: hidden;
