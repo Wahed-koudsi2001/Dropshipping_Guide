@@ -1503,6 +1503,7 @@ textarea.input-field {
 .s-block--animated-brands--marquee .marquee__group {
   flex-shrink: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14);
