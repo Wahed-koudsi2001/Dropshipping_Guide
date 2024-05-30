@@ -452,18 +452,6 @@ body {
   overflow: hidden;
 }
 
-.project-card::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--black);
-  opacity: 0.1;
-  transition: var(--transition-2);
-}
-
 .project-card:is(:hover, :focus-within)::after {
   opacity: 0.8;
 }
@@ -1463,7 +1451,7 @@ textarea.input-field {
   margin-bottom: 50px;
 }
 .s-block--animated-brands--marquee {
-  display: flex;
+  /* display: flex; */
   overflow: hidden;
   direction: ltr;
   -webkit-user-select: none;
@@ -1515,6 +1503,7 @@ textarea.input-field {
 .s-block--animated-brands--marquee .marquee__group {
   flex-shrink: 0;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: calc(clamp(10rem, 1rem + 40vmin, 30rem) / 14);
   animation: scroll-x 60s linear infinite;
@@ -1546,7 +1535,7 @@ img.lazy.loaded {
   -webkit-transition: all 300ms;
 }
 
-@keyframes scroll-x {
+/* @keyframes scroll-x {
   0% {
     transform: translateX(0);
     -webkit-transform: translateX(0);
@@ -1561,7 +1550,7 @@ img.lazy.loaded {
     -ms-transform: translateX(calc(-100% - clamp(10rem, 1rem + 40vmin, 30rem) / 14));
     -o-transform: translateX(calc(-100% - clamp(10rem, 1rem + 40vmin, 30rem) / 14));
   }
-}
+} */
 .padding-top {
   padding: 40px;
 }
