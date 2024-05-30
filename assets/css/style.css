@@ -1364,7 +1364,7 @@ textarea.input-field {
   gap: 40px;
 }
 
-.testimonial .row .col {
+/* .testimonial .row .col {
   box-shadow: 0 5px 20px 1px hsla(220, 63%, 33%, 0.1);
   text-align: center;
   display: flex;
@@ -1377,6 +1377,9 @@ textarea.input-field {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+} */
+.testimonial .row .col img {
+  width: 100%;
 }
 
 .testimonial .row .col .google-5-star {
