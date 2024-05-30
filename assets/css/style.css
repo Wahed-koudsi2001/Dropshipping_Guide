@@ -745,6 +745,8 @@ textarea.input-field {
 .footer {
   background-color: #2979df3b;
   padding-block: 20px;
+  color: #000;
+  font-weight: bold;
 }
 
 .copyright {
@@ -1124,7 +1126,7 @@ textarea.input-field {
      */
 
     --fs-1: 6rem;
-    --fs-2: 4.5rem;
+    --fs-2: 4rem;
     --fs-4: 1.9rem;
     --fs-5: 1.6rem;
     --fs-6: 1.6rem;
@@ -1236,9 +1238,9 @@ textarea.input-field {
   font-size: 3.8rem;
   font-weight: 700;
 }
-
+/* 
 .footer {
-  padding: 60px 0 20px 0 !important;
+  padding: 50px 0 20px 0 !important;
 }
 
 .footer-brand {
@@ -1260,7 +1262,7 @@ textarea.input-field {
   color: #000;
   font-weight: 500;
   margin-block-end: 20px;
-}
+} */
 
 .social-list {
   display: flex;
@@ -1268,7 +1270,7 @@ textarea.input-field {
   align-items: center;
   gap: 10px;
 }
-
+/* 
 .footer-top .social-link {
   background-color: #013475;
   font-size: 18px;
@@ -1334,7 +1336,7 @@ textarea.input-field {
   font-weight: bold;
   color: #831751;
   display: inline;
-}
+} */
 
 .copyright-link {
   display: inline-block;
@@ -1345,21 +1347,18 @@ textarea.input-field {
   text-decoration: none;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .footer-brand .text {
     max-width: 45ch;
   }
-}
+} */
 
-@media (min-width: 768px) {
-}
-
-@media (min-width: 550px) {
+/* @media (min-width: 550px) {
   .footer-brand,
   .footer-list:not(:last-child) {
     margin-block-end: 0;
   }
-}
+} */
 
 .testimonial {
   padding: 100px 0;
