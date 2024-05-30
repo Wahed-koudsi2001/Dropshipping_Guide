@@ -1243,6 +1243,11 @@ textarea.input-field {
 
 .footer-brand {
   margin-block-end: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .footer-brand .logo {
@@ -1340,46 +1345,19 @@ textarea.input-field {
   text-decoration: none;
 }
 
-@media (min-width: 1200px) {
-  .footer-top .container {
-    grid-template-columns: 1fr 0.5fr 0.7fr 0.5fr 1fr;
-  }
-
-  .footer-brand {
-    grid-column: auto;
-  }
-}
-
 @media (min-width: 992px) {
-  .footer-top .container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .footer-brand {
-    grid-column: 1 / 5;
-  }
-
   .footer-brand .text {
     max-width: 45ch;
   }
 }
 
 @media (min-width: 768px) {
-  .footer-top .container {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 @media (min-width: 550px) {
   .footer-brand,
   .footer-list:not(:last-child) {
     margin-block-end: 0;
-  }
-
-  .footer-top .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px 50px;
   }
 }
 
